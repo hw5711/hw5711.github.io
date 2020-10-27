@@ -13,8 +13,8 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://example.com/child
-root: /child/
+url: http://example.com
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -103,6 +103,6 @@ theme: miccall
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo:
-    github: https://github.com/hw5711/hw5711.github.io.git,master
+    type: git
+    repo: git@github.com:hw5711/wh5711.github.io.git
+    branch: master
